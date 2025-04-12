@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประวัติส่วนตัว</title>
+    <style>
+	/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Profile Section */
+.profile-section {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details h1 {
+    font-size: 2.5rem;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.profile-details p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+.profile-details a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.profile-details a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-section {
+        grid-template-columns: 1fr;
+    }
+
+    .profile-image img {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+	
+	</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">ประวัติส่วนตัว</a></li>
+                <li><a href="teaching-materials.html">สื่อการสอน</a></li>
+                <li><a href="documents.html">เผยแพร่เอกสาร</a></li>
+                <li><a href="submit-assignments.html">ส่งงานนักเรียน</a></li>
+                <li><a href="portfolio.html">ผลงานต่าง ๆ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="profile-section">
+            <div class="profile-image">
+                <img src="picture\boy.jpg" alt="รูปภาพ นายเอกภพ ขยันเรียน">
+            </div>
+            <div class="profile-details">
+                <h1>นายเอกภพ ขยันเรียน</h1>
+                <p><strong>เบอร์โทรศัพท์:</strong> 096236791</p>
+                <p><strong>Email:</strong> <a href="mailto:boycoding2022@gmail.com">boycoding2022@gmail.com</a></p>
+                <p><strong>คติประจำใจ:</strong> การเรียนรู้ไม่มีวันที่สิ้นสุด ต้องเรียนรู้ตลอดเวลา</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 นายเอกภพ ขยันเรียน</p>
+    </footer>
+</body>
+</html>

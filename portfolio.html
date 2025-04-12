@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ผลงานต่าง ๆ</title>
+    <style>
+	/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-section h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.gallery-item p {
+    font-size: 1rem;
+    color: #4CAF50;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .gallery-container {
+        grid-template-columns: 1fr;
+    }
+}
+	
+	
+	
+	</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">ประวัติส่วนตัว</a></li>
+                <li><a href="teaching-materials.html">สื่อการสอน</a></li>
+                <li><a href="documents.html">เผยแพร่เอกสาร</a></li>
+                <li><a href="submit-assignments.html">ส่งงานนักเรียน</a></li>
+                <li><a href="portfolio.html">ผลงานต่าง ๆ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="portfolio-section">
+            <h1>ผลงานต่าง ๆ</h1>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="picture/1.jpg" alt="โครงการที่ 1">
+                    <p>โครงการอบรมนักเรียนด้านเทคโนโลยี</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="picture/1.jpg" alt="โครงการที่ 2">
+                    <p>การแข่งขันคณิตศาสตร์ระดับชาติ</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="picture/2.jpg" alt="โครงการที่ 3">
+                    <p>กิจกรรมวันวิทยาศาสตร์</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="picture/2.jpg" alt="โครงการที่ 4">
+                    <p>การพัฒนาแอปพลิเคชันการเรียนรู้</p>
+                </div>
+				   <div class="gallery-item">
+                    <img src="picture/2.jpg" alt="โครงการที่ 5">
+                    <p>การพัฒนาแอปพลิเคชันการเรียนรู้</p>
+                </div>
+				   <div class="gallery-item">
+                    <img src="picture/2.jpg" alt="โครงการที่ 6">
+                    <p>การพัฒนาแอปพลิเคชันการเรียนรู้</p>
+                </div>
+				   <div class="gallery-item">
+                    <img src="picture/2.jpg" alt="โครงการที่ 7">
+                    <p>การพัฒนาแอปพลิเคชันการเรียนรู้</p>
+                </div>
+				
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 นายเอกภพ ขยันเรียน</p>
+    </footer>
+</body>
+</html>

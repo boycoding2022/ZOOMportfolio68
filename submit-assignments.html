@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ส่งงานนักเรียน</title>
+        <style>
+	body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #993333;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+	</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">ประวัติส่วนตัว</a></li>
+                <li><a href="teaching-materials.html">สื่อการสอน</a></li>
+                <li><a href="documents.html">เผยแพร่เอกสาร</a></li>
+                <li><a href="submit-assignments.html">ส่งงานนักเรียน</a></li>
+                <li><a href="portfolio.html">ผลงานต่าง ๆ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>ส่งงานนักเรียน</h1>
+        <form action="submit.php" method="post" enctype="multipart/form-data">
+            <label for="name">ชื่อนักเรียน:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="file">เลือกไฟล์งาน:</label>
+            <input type="file" id="file" name="file" required><br>
+            <button type="submit">ส่งงาน</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 นายสมชาย ใจดี</p>
+    </footer>
+</body>
+</html>
